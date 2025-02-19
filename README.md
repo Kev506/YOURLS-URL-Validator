@@ -1,4 +1,4 @@
-# YOURLS-URL-Validity
+# YOURLS-URL-Validator
 A YOURLS plugin that checks submitted URL's for validity, reachability.
 
 - If a submitted URL does not meet [RFC 2396](http://www.faqs.org/rfcs/rfc2396.html) standards, it is rejected
