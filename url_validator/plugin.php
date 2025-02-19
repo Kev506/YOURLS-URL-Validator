@@ -44,8 +44,8 @@ function check_url_exists($is, $url, $keyword = '' , $title = '') {
             CURLOPT_RETURNTRANSFER => 1,     
             CURLOPT_SSL_VERIFYPEER => 0,
             CURLOPT_ENCODING => '',
-	     	CURLOPT_CONNECTTIMEOUT => 4,   
-			CURLOPT_TIMEOUT => 5           
+	    CURLOPT_CONNECTTIMEOUT => 4,   
+	    CURLOPT_TIMEOUT => 5           
          ));
         
          // Get the HTML or whatever is linked in $url.
