@@ -26,7 +26,7 @@ function check_url_exists($is, $url, $keyword = '' , $title = '') {
 		a simple message will suffice, unless you have updated
 		the admin or public pages.*/
 		$return['message'] = yourls__('<span style="font-size: 20px; font-weight: bold; color: red;">URL Validity: Invalid URL!
-		    <br/><br/>Please go back and try again.</span>');
+		<br/><br/>Please go back and try again.</span>');
 		    
 		$return['statusCode'] = '404';
 	}
@@ -64,10 +64,10 @@ function check_url_exists($is, $url, $keyword = '' , $title = '') {
 	        /*Change this message to suit your specific requirements - 
 	      	a simple message will suffice, unless you have updated
 	    	the admin or public pages.*/
-		    $return['message']  = yourls__( '<span style="font-size: 20px; font-weight: bold; color: red;">The URL is INVALID!
-		    <br/><br/>Please go back and try again.</span>');
+		$return['message']  = yourls__( '<span style="font-size: 20px; font-weight: bold; color: red;">The URL is INVALID!
+		<br/><br/>Please go back and try again.</span>');
 		    
-		    $return['statusCode'] = 200; 
+		$return['statusCode'] = 200; 
 		}
 	}
             
