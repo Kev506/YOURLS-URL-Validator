@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: URL Validity
-Description: Validates long URL's for reachability and redirection
+Description: Validates long URL's for reachability
 Version: 1.1.7
 Author: Kevin Andrews
 Author URI: https://github.com/Kev506/YOURLS-URL-Validity
