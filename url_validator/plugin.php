@@ -58,7 +58,7 @@ function check_url_exists($is, $url, $keyword = '' , $title = '') {
          curl_close($handle);
 		
 	    if($httpCode !== 200) {
-			$return['status']   = 'fail';
+		$return['status']   = 'fail';
 	        $return['code']     = 'error:url';
 	        
 	        /*Change this message to suit your specific requirements - 
