@@ -1,10 +1,11 @@
 <?php
 /*
 Plugin Name: URL Validator
+Plugin URI: https://github.com/Kev506/YOURLS-URL-Validator
 Description: Validates long URL's for reachability
-Version: 1.1.7
+Version: 1.1.8
 Author: Kevin Andrews
-Author URI: https://github.com/Kev506/YOURLS-URL-Validator
+Author URI: https://github.com/Kev506
 */
 
 // No direct call
