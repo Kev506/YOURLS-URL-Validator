@@ -10,6 +10,7 @@ A YOURLS plugin that checks submitted URL's for validity and reachability.
 
 ### INSTALLATION
 
-1. Place the url_validator folder in YOURLS/user/plugins/
-2. Activate in the Admin interface under Manage Plugins
+* Place the url_validator folder in YOURLS/user/plugins/
+* Activate in the Admin interface under Manage Plugins
+* Tested successfully on YOURLS latest v1.10.0.
 
